@@ -157,3 +157,17 @@ body{
      width: 100%;
      border-radius: 2px;
 }
+
+.contactus{
+     margin-top: 100px;
+     display: flex;
+     justify-content: space-evenly;
+}
+.contactinfo{
+     border-left: solid black 4px;
+     padding-left: 100px;
+     /* border-left: solid red 2px; */
+}
+.contactus-inside{
+     border: solid black 2px;
+}
