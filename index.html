@@ -6,7 +6,6 @@
      <title>Gaming Store </title>
      <link rel="stylesheet" href="style.css">
      <link rel="shortcut icon" href="Media/109536590.png" type="image/x-icon">
-     
 </head>
 
 <header class="header backgroundimg">
@@ -18,16 +17,11 @@
           <div class="header2">
                <p><a href="index.html">Home</a></p>
                <p><a href="product.html">Products</a></p>
-
                <p><a href="contactus.html">Contact Us</a></p>
-
           </div>
 
           <div class="header3">
-               <p>
-                    Login
-               </p>
-          
+               <p>Login</p>
                <p>Sign up</p>
           </div>
      </div>
@@ -36,31 +30,23 @@
           <h1 class="title">Mouse Pad Store </h1>
           <h2 class="title2"> New Shipment New Design</h2>
           <div class="button-area" style="display: flex;margin-top: 30px;">
-          <button class="button"><a href="product.html">Shop Now</a></button>
-          <h2 class="title-price">Starting From 500 BDT</h2>
-
+               <button class="button"><a href="product.html">Shop Now</a></button>
+               <h2 class="title-price">Starting From 500 BDT</h2>
+          </div>
      </div>
-     
-     
-     
-     
-
 </header>
 
 <body>
      <!-- Name:Faiyaz Mahmud, ID: 2021148 -->
-     <section >
-          <div class="gearup" >
+     <section>
+          <div class="gearup">
                <div class="gearup2">
-                    <h1  class="gearupheader">Gear Up Pc Builds</h1>
-     
-                    <p class="gearupinside">Building a custom PC offers better performance and flexibility. A reliable PC builder ensures high-quality PC builds with top components like CPUs, GPUs, and RAM. Choosing the right PC build enhances gaming, productivity, and longevity, making a PC builder essential.</p>
-     
+                    <h1 class="gearupheader">Gear Up Pc Builds</h1>
+                    <p id="gearupinside" class="gearupinside">Building a custom PC offers better performance and flexibility. A reliable PC builder ensures high-quality PC builds with top components like CPUs, GPUs, and RAM. Choosing the right PC build enhances gaming, productivity, and longevity, making a PC builder essential.</p>
                     <div style="display: flex;">
-                         <div><button class="button" style="margin-right: 10px;">View More</button></div>
-                         <div> <button class="button"> Go to Shop</button></div>
+                         <div><button class="button" style="margin-right: 10px;" onclick="showAlert()">View More</button></div>
+                         <div><button class="button" onclick="toggleContent()">Go to Shop</button></div>
                     </div>
-                    
                </div>
                <div>
                     <img style="border-radius: 20px; height: 500px;" src="Media/maxresdefault.webp" alt="">
@@ -68,32 +54,34 @@
           </div>
      </section>
 
-     
+     <footer>
+          <div class="footer">
+               <div>
+                    <img src="Media/109536590-removebg-preview.png" alt="">
+                    <p>Made By Enthusiasts - From PC Builder Bangladesh</p>
+                    <p>Phone: +880 1711-745116</p>
+                    <p>Email: info@pcbstore.net</p>
+               </div>
+               <div>
+                    <h1>USEFUL LINKS</h1>
+                    <p>Privacy Policy</p>
+                    <p>terms and condition</p>
+                    <p>contact us</p>
+                    <p>Refund & Retuens</p>
+                    <p>Latest News</p>
+               </div>
+          </div>
+     </footer>
 
-     
+     <script>
+         function showAlert() {
+             alert("Visit Our Store To See All the Products ");
+         }
+
+         // Function for the second button
+         function toggleContent() {
+          alert("Our Store Purchase will get 15% more Discount.");
+         }
+     </script>
 </body>
-
-<footer>
-     <div class="footer">
-          <div>
-               <img src="Media/109536590-removebg-preview.png" alt="">
-               <p>Made By Enthusiasts - From PC Builder Bangladesh</p>
-
-               <p>Phone: +880 1711-745116</p>
-               <p>Email: info@pcbstore.net</p>
-
-
-          </div>
-
-          <div>
-               <h1>USEFUL LINKS</h1>
-               <p>Privacy Policy</p>
-               <p>terms and condition</p>
-               <p>contact us</p>
-               <p>Refund & Retuens</p>
-               <p>Latest News</p>
-          </div>
-     </div>
-
-</footer>
 </html>
