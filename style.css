@@ -1,11 +1,12 @@
 .header{
      margin-top: 10px;
      /* border: solid black 2px; */
-     height: 1000px;
+     /* height: 1000px; */
      
 }
 .backgroundimg{
      background-image: url(Media/pexels-hngstrm-1939485.jpg);
+     height: 1000px;
 }
 .header1{
      display: flex;
@@ -126,4 +127,33 @@ body{
      color: rgb(0, 0, 0);
 
      margin-top:300px;
+}
+
+.container{
+     display: grid;
+     /* border: solid black; */
+     grid-template-rows: 800px 800px 800px  ; 
+     grid-template-columns: 1fr 1fr 1fr 1fr ;
+     grid-gap: 2em;
+     margin-left: 5px;
+     margin-right: 5px;
+
+
+     
+
+     
+
+}
+.container>div{
+     background-color: rgb(255, 255, 255);
+     border: solid black 5px;
+     border-radius: 5px;
+     /* padding: 5px; */
+     text-align: center;
+     background-color: rgb(252, 252, 237);
+}
+
+.container_img{
+     width: 100%;
+     border-radius: 2px;
 }
